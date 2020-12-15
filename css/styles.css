@@ -17,6 +17,12 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 h3 {
   font-weight: 700;
   font-size: 1.25rem;
@@ -75,4 +81,30 @@ p {
 
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
