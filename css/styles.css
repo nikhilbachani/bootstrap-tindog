@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -76,10 +80,10 @@ p {
 }
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
   position: absolute;
   right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
 }
 
 /* Features Section */
@@ -130,8 +134,8 @@ p {
 }
 
 .press-logo {
-  width: 15%;
   margin: 20px 20px 50px;
+  width: 15%;
 }
 
 /* Pricing Section */
@@ -157,6 +161,9 @@ p {
 /* CTA Section */
 
 /* Footer Section */
+#footer .container-fluid {
+  padding: 3% 15%;
+}
 
 .social-icon {
   margin: 20px 10px;
