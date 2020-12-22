@@ -12,6 +12,7 @@ p {
 }
 
 /* Headings */
+
 .big-heading {
   font-size: 3.5rem; /* 56px */
   font-weight: 900; /* Montserrat-Black */
@@ -23,12 +24,25 @@ p {
   line-height: 1.5;
 }
 
-/* Container */
+/* Containers */
+
 .container-fluid {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
 /* Navigation Bar */
+
 .navbar {
   padding: 0 0 4.5rem; /* 72px */
 }
@@ -49,19 +63,16 @@ p {
 }
 
 /* Download Buttons */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-image {
@@ -72,8 +83,8 @@ p {
 }
 
 /* Features Section */
+
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -95,9 +106,9 @@ p {
 }
 
 /* Testimonials Section */
+
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-text {
@@ -112,6 +123,7 @@ p {
 }
 
 /* Press Section */
+
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
@@ -123,6 +135,7 @@ p {
 }
 
 /* Pricing Section */
+
 #pricing {
   padding: 100px;
 }
@@ -142,21 +155,15 @@ p {
 }
 
 /* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  color: white;
-}
 
 /* Footer Section */
-#footer {
-  background-color: white;
-}
 
 .social-icon {
   margin: 20px 10px;
 }
 
 /* Media Queries */
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
