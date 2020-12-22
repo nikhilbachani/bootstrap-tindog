@@ -146,7 +146,7 @@ p {
 
 .card-title {
   font-size: 1.5rem; /* 24px */
-  margin: .5rem 0;
+  margin: .5rem 0; /* 8px */
 }
 
 .price-text {
@@ -172,6 +172,15 @@ p {
 /* Media Queries */
 
 @media (max-width: 991px) {
+  p {
+    color: #6d6d6d;
+    font-size: 1.5rem; /* 24px */
+  }
+
+  em {
+    font-size: 1.25rem; /* 20px */
+  }
+
   #title .container-fluid {
     text-align: center;
     padding: 3% 10%;
@@ -182,23 +191,32 @@ p {
   }
 
   .navbar-toggler-icon {
-    font-size: 2.5rem;
+    font-size: 2.5rem; /* 40px */
   }
 
   .navbar-dark .navbar-nav .nav-link {
     border-bottom: 2px solid;
     color: white;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 2rem; /* 32px */
     font-weight: 400;
   }
 
   .navbar-dark .navbar-nav .nav-item {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0; /* 24px */
   }
 
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  .feature-title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .social-icon {
+    font-size: 1.75rem; /* 28px */
+    margin: 30px;
   }
 }
